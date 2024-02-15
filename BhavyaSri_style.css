@@ -1,0 +1,24 @@
+.title-img{
+    height: 350px;
+    width: 70vw;
+}
+.para{
+    color: black;
+    font-weight: 700;
+}
+.sub-img{
+    background-color: black;
+    height: 120px;
+    width: 100px;
+}
+h1{
+    color: black;
+}
+.userInput{
+    height: 50px;
+    color: black;
+    width: 170px;
+}
+.para2{
+    color: white;
+}
