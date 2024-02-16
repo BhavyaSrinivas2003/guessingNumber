@@ -34,9 +34,12 @@
             </div>
         </div>
     <script>
-    function startGame(){
+        function startGame(){
     let randomNumber=Math.floor(Math.random()*15) + 1;
     let tries=3;
+    }
+    startGame();
+    
     function checkNumber(){
     let userInput=document.getElementById("userInput").value;
     let result=document.getElementById("result");
@@ -64,7 +67,7 @@
     
 
   }
-}
+
         </script>
     </body>
 </html>
