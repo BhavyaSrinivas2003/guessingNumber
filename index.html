@@ -35,15 +35,15 @@
         </div>
     <script>
         function startGame(){
-    let randomNumber=Math.floor(Math.random()*15) + 1;
-    let tries=3;
+    var randomNumber=Math.floor(Math.random()*15) + 1;
+    var tries=3;
     }
     startGame();
     
     function checkNumber(){
-    let userInput=document.getElementById("userInput").value;
-    let result=document.getElementById("result");
-    let value=parseInt(userInput);
+    var userInput=document.getElementById("userInput").value;
+    var result=document.getElementById("result");
+    var value=parseInt(userInput);
     if (userInput===""){
         alert("Please enter a number");
     }
